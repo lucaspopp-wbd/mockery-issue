@@ -1,12 +1,16 @@
+log-level: error
+
 all: false
+recursive: false
+
 dir: '{{.InterfaceDir}}'
-force-file-write: true
-formatter: goimports
-log-level: info
 structname: '{{.Mock}}{{.InterfaceName}}'
 pkgname: '{{.SrcPackageName}}'
-recursive: false
+force-file-write: true
+
+formatter: goimports
 template: testify
+
 packages:
 
   github.com/lucaspopp-wbd/mockery-issue:
