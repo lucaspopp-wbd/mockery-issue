@@ -9,15 +9,8 @@ outpkg: '{{.PackageName}}'
 
 packages:
 
-  github.com/lucaspopp-wbd/mockery-issue:
-    config:
-      recursive: true
-      all: true
-
   github.com/istreamlabs/go-sdk/isp:
     config:
-      recursive: true
-      all: true
       outpkg: mocks
       dir: mocks
     interfaces:

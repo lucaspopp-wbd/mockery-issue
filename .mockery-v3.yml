@@ -13,15 +13,8 @@ template: testify
 
 packages:
 
-  github.com/lucaspopp-wbd/mockery-issue:
-    config:
-      recursive: true
-      all: true
-
   github.com/istreamlabs/go-sdk/isp:
     config:
-      recursive: true
-      all: true
       pkgname: mocks
       dir: mocks
     interfaces:
