@@ -16,6 +16,6 @@ packages:
   github.com/istreamlabs/go-sdk/isp:
     config:
       pkgname: mocks
-      dir: mocks
+      dir: .
     interfaces:
       ChannelsForOrganizationApi:
